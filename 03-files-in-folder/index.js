@@ -17,7 +17,7 @@ async function displayFilesInfo() {
       }
     }
   } catch (err) {
-    console.error('Ошибка: ', err.message);
+    console.error('Error: ', err.message);
   }
 }
 
